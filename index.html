@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>E-Groceries</title>
     <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
   </head>
   <body>
     <div class="navigation-bar">
@@ -13,9 +14,9 @@
         </div>
         <div class="right-nav-bar">
             <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#our-package">Our Package</a></li>
-                <li><a href="#call-us">Call Us</a></li>
+                <li id="li-home"><a href="#home">Home</a></li>
+                <li id="li-our-package"><a href="#our-package">Our Package</a></li>
+                <li id="li-call-us"><a href="#call-us">Call Us</a></li>
             </ul>
         </div>
       </div>
@@ -31,35 +32,52 @@
         <div class="right-div-box">
             <p id="text-4"><b>Contact Us</b></p>
             <p id="text-5">Sales akan menghubungi anda 1x24 Jam setelah data kami terima.</p>
-            <form>
-                <label for="name">Your Name:</label>
+            <br>
+            <form name="contact-from">
+                <label for="nama">Your Name:</label>
                 <br>
-                <input type="text" id="name" placeholder="First and last name">
+                <input type="text" id="nama" name="nama" placeholder="First and last name">
                 <br>
-                <label for="email">Email Address:</label>
+                <label for="email-address">Email Address:</label>
                 <br>
-                <input type="email" id="email" placeholder="example@email.com">
+                <input type="email" id="email-address" name="email-address" placeholder="example@email.com">
                 <br>
                 <label for="interest">What are you interested in?</label>
                 <br>
-                <select>
+                <select id="interest">
                     <option>Video Game</option>
                     <option>Reading</option>
                     <option>Studying</option>
                 </select>
                 <br>
-                <input type="submit">
+                <br>
+                <button id="send-btn" type="submit">SEND</button>
             </form>
         </div>
         <h4>Makanlah buah dan sayur karena mengandung manfaat:</h4>
-        <p>1. sumber makanan yang mengandung gizi lengkap dan sehat.</p>
-        <p>2. Mengandung vitamin dan mineral, yang mengatur pertumbuhan dan pemeliharaan tubuh.</p>
+        <p>1. Meningkatkan daya ingat, adanya zat antoksidan dapat melindungi sel-sel otak.</p>
+        <p>2. Membuat tubuh lebih bugar, kandungan vitamin dan mineral yang tinggi bersama dengan enzim bereaksi memproduksi energi sehingga membuat tubuh menjadi lebih bugar.</p>
+        <p>3. Melancarkan buang air besar, kandungan serat yang tinggi yang dapat meningkatkan kelancaran metabolisme tubuh.</p>
+        <p>4. Membantu mengatasi obesitas, tingginya kandungan serat dalam buah-buahan dan sayuran memberikan rasa kenyang dan dapat mengurangi porsi makan yang berlebih.</p>
+        <p>5. Membuat perasaan lebih bahagia, antioksidan terbukti mengurangi peradangan pada tubuh dan mampu melindungi seseorang dari depresi (antidepresan).</p>
+        <p>6. Meningkatkan sistem kekebalan tubuh, buah, dan sayur kaya vitamin C membantu meningkatkan kekebalan tubuh.</p>
+        <p>7. Menjaga kesehatan tulang dan gigi, buah dan sayur seperti bayam, lobak, alpukat, dan jeruk menjadi sumber kalsium yang baik.</p>
+        <p>8. Menurunkan kolesterol dan melancarkan pencernaan karena kandungan serat yang tinggi.</p>
+        <br><br>
         <div class="our-package-div">
             <br>
             <h1 id="our-package">Our Package</h1>
             <br>
             <br>
-            <img src="images/our-package-image.png" alt="Our Package Image.">
+            <div id="our-package-image-div">
+              <img src="images/our-package-image.png" alt="Our Package Image.">
+            </div>
+        </div>
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <div class="call-us-div">
+          <h1 id="call-us">Closing Argument Headline</h1>
+          <p>Buy our product now!</p>
+          <button id="call-to-action-btn" name="call-to-action-btn">CALL TO ACTION</button>
         </div>
       </div>
   </body>
