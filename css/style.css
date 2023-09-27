@@ -1,0 +1,74 @@
+.left-nav-bar {
+    float: left;
+    width: 50%;
+    text-align: left;
+}
+
+.right-nav-bar {
+    float: right;
+    width: 50%;
+    text-align: right;
+}
+
+.left-div-box {
+    float: left;
+    width: 50%;
+    height: 500px;
+    text-align: left;
+    background-color: #f6f0f0;
+}
+
+.right-div-box {
+    float: left;
+    width: 50%;
+    height: 500px;
+    text-align: center;
+    background-color: #f6f0f0;
+}
+
+.our-package-div {
+    text-align: center;
+    height: 120px;
+    background-color: lightgrey;
+    color: white;
+}
+
+li {
+    display: inline;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+img {
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#text-1 {
+    text-align: center;
+}
+
+#text-2 {
+    text-align: center;
+    color: lightgray;
+}
+
+#text-3 {
+    text-align: center;
+    color: lightgray;
+}
+
+#text-4 {
+    text-align: center;
+}
+
+#text-5 {
+    text-align: center;
+    color: lightgray;
+}
+
